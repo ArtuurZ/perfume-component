@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    background-color:#dac5b6;
+    font-family: Source Sans Pro;
+}
+.mobContainer{
+    display: none;
+}
+.container{
+    height: 500px;
+    width: 700px;
+    border-radius: 15px;
+    background-color: white;
+    position:absolute;
+    top:20%;
+    right: 30%;
+}
+.left{
+    float: left;
+    height: 100%;
+    width: 48%;
+    background-image: url('image-product-desktop.jpg');
+    background-size: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+.right{
+    float: right;
+    height: 100%;
+    width: 52%;
+    background-color: #f3ede6;
+    border-radius: 15px;
+}
+
+.top{
+    height: 40%;
+    border-radius: 15px;
+}
+h2{
+    color:#b9b8be;
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+h1{
+    margin-left: 15px;
+    font-size: 40px;
+    font-family: Lilita One;
+}
+.bot{
+    height: 60%;
+    border-radius: 15px;
+}
+.ipsum{
+    color: #929398;
+    margin-left: 15px;
+    margin-right: 45px;
+    font-weight: 600;
+}
+.price{
+    color: #3d8168;
+    font-size: 40px;
+   font-weight: 700;
+   float: left;
+   margin-left: 20px;
+   font-family: Lilita One;
+}
+.discount{
+    float: right;
+    margin: 56px 120px 0 0;
+    text-decoration: line-through;
+    color: #929398;
+}
+button{
+    background-color:#3d8168; ;
+    padding: 17px 80px 5px 80px;
+    margin-left: 50px;
+    color:white;
+    border: 0;
+    border-radius: 10px;
+    
+}
+.text{
+    float:right;
+    margin-top: 2px;
+}
+.cart{
+    margin-right: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color:#dac5b6;
+    }
+    .container{
+        display: none;
+    }
+    .mobContainer{
+        display: block;
+        height: 630px;
+        border-radius: 15px;
+    }
+    .mobTop{
+        height: 40%;
+        background-image: url('image-product-mobile.jpg');
+        background-size: cover;
+        border-radius: 15px 15px 0px 0;
+    }
+    .mobBot{
+        height: 60%;
+        background-color: white;
+        margin-top: 0;
+        border-radius: 0 0 15px 15px;
+    }
+    h4{
+        margin:0 0 0 25px;
+        font-size: 18px;
+        letter-spacing: 5px;
+        color:#b9b8be;
+        padding: 10px 0 0 0;
+    }   
+    h3{
+        margin-left: 25px;
+        font-size: 30px;
+        margin-bottom: 0;
+        font-family: Lilita One;
+    }
+    .mobIpsum{
+        color:#b9b8be;
+        margin-left: 25px;
+        font-weight: 600;
+        margin-bottom: 0;
+        margin-right: 5px;
+        padding-bottom: 0;
+    }
+    button{
+        background-color:#3d8168; ;
+        padding: 17px 80px 5px 80px;
+        margin-left: 50px;
+        color:white;
+        border: 0;
+        border-radius: 10px;
+        margin-top: 0px;
+    }
+    .price{
+        color: #3d8168;
+        font-size: 40px;
+       font-weight: 700;
+       float: left;
+       margin-left: 20px;
+       font-family: Lilita One;
+       margin-bottom: 10px;
+    }
+    .discount{
+        float: right;
+        margin: 56px 120px 0 0;
+        text-decoration: line-through;
+        color: #929398;
+    }
+  }
